@@ -1,0 +1,36 @@
+.home-view-router-button  {
+    width: 100% !important; 
+    padding: 3rem !important; 
+    margin: 0 !important;
+}
+
+.home-view-router-button i {
+    font-size: 40px !important;
+}
+
+.home-view-router-button span {
+    margin: 0 !important;
+}
+
+.el-input {
+    width: 100% !important;
+}
+
+.el-input .el-input__wrapper {
+    width: 100% !important;
+}
+
+.el-input.error .el-input__wrapper,
+.el-input-number.error .el-input__wrapper,
+.el-select.error .el-input__wrapper{
+    box-shadow: 0 0 0 1px red inset;
+}
+
+.el-input-number {
+    width: 100% !important;
+}
+
+.el-input-number .el-input__inner {
+    width: 100%;
+    text-align: left !important;
+}

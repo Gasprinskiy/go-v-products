@@ -1,0 +1,46 @@
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #409EFF;
+  --bg-color-primary: #FFF;
+  --bg-color-secondary: rgb(64, 158, 255, 15%);
+  --br-radius: 3px;
+  --transtion-duration: 0.2s;
+  --transtion-type: ease-in;
+  --elements-shadow : 0 0px 4px var(--color-primary);
+  --default-color: #606266;
+}
+
+body {
+  font-family: "Open Sans";
+  background-color: var(--bg-color-primary);
+  /* color: var(--text-color); */
+}
+
+#app {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.router-view-wrapper {
+  height: calc(100vh - 52px);
+}
+
+.router-inner {
+  padding: 1rem 0.5rem;
+}
+
+.router-link-active {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
